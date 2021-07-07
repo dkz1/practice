@@ -7,7 +7,7 @@ package schoolSys;
  */
 public class Student extends Person{
     //新增班级、学位属性
-    String classname;
+    Grade grade;
     String degree;
     static final String[] degreeList = {"学士","硕士","博士"};
 
@@ -18,12 +18,12 @@ public class Student extends Person{
 
     //新增班级的 setter getter 方法
 
-    public String getClassname() {
-        return classname;
+    public Grade getGrade() {
+        return grade;
     }
 
-    public void setClassname(String classname) {
-        this.classname = classname;
+    public void setGrade(Grade grade) {
+        this.grade = grade;
     }
 
     public String getDegree() {

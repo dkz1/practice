@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Course {
     String name;
     ArrayList<String> classList; //上课班级的list，需要能够增加、删除班级，用list
-    String classroom;
+    Grade grade; //表示班级
     Teacher teacher;
 
     //构造方法，课程名称和上课老师一般是固定不变的，以此构建课程对象
@@ -32,12 +32,12 @@ public class Course {
         this.classList = classList;
     }
 
-    public String getClassroom() {
-        return classroom;
+    public Grade getGrade() {
+        return grade;
     }
 
-    public void setClassroom(String classroom) {
-        this.classroom = classroom;
+    public void setGrade(Grade grade) {
+        this.grade = grade;
     }
 
     public Teacher getTeacher() {
