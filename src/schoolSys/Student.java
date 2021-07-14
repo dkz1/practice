@@ -1,5 +1,7 @@
 package schoolSys;
 
+import org.apache.commons.io.IOUtils;
+
 /**
  * 学生类
  * 学生需要有：
@@ -33,4 +35,5 @@ public class Student extends Person{
     public void setDegree(String degree) {
         this.degree = degree;
     }
+
 }

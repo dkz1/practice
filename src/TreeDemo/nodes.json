@@ -1,0 +1,71 @@
+[{
+  "Id": "1",
+  "Pid": "0",
+  "name": "集合框架",
+  "children": []
+},{
+  "Id": "2",
+  "Pid": "1",
+  "name": "List",
+  "children": []
+},{
+  "Id": "3",
+  "Pid": "1",
+  "name": "Set",
+  "children": []
+},{
+  "Id": "4",
+  "Pid": "1",
+  "name": "Map",
+  "children": []
+},{
+  "Id": "5",
+  "Pid": "2",
+  "name": "ArrayList",
+  "children": []
+},{
+  "Id": "6",
+  "Pid": "2",
+  "name": "LinkedList",
+  "children": []
+},{
+  "Id": "7",
+  "Pid": "2",
+  "name": "Vector",
+  "children": []
+},{
+  "Id": "8",
+  "Pid": "3",
+  "name": "HashSet",
+  "children": []
+},{
+  "Id": "9",
+  "Pid": "3",
+  "name": "SortedSet",
+  "children": []
+},{
+  "Id": "10",
+  "Pid": "4",
+  "name": "HashMap",
+  "children": []
+},{
+  "Id": "11",
+  "Pid": "4",
+  "name": "Hashtable",
+  "children": []
+},{
+  "Id": "12",
+  "Pid": "4",
+  "name": "IdentityHashMap",
+  "children": []
+},{
+  "Id": "13",
+  "Pid": "4",
+  "name": "SortedMap",
+  "children": []
+},{
+  "Id": "14",
+  "Pid": "4",
+  "name": "WeakedHashMap",
+  "children": []
+}]
